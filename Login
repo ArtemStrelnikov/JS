@@ -1,0 +1,32 @@
+<script>
+
+let name = prompt('Введите имя', '');
+
+if (name === 'Админ') {
+  let password = prompt('Введите пароль','');
+
+  if (password === 'Я главный'){
+    alert('Здравствуйте!')
+  }
+
+  else if (password === '' || password === null){
+    alert('Отменено');
+  }
+
+  else {
+    alert('Пароль не верный');
+  }
+}
+
+
+
+
+else if (name === '' || name === null){
+  alert ('Отменено');
+}
+
+else {
+  alert('Не известное имя')
+}
+
+  </script>
